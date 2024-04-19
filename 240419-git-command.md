@@ -12,3 +12,14 @@ git config --list
 git config --list 명령어는 현재 Git 설정을 리스트로 출력
 vi ~/.gitconfig
 파일을 열어서 설정을 확인하고 변경
+
+# how to start 
+vi README.md 
+README.md 파일을 vi로 수정한다
+git status
+git의 상태를 파악한다.
+git add README.md
+git을 commit준비상태로 바꾼다. 
+git push origin main 
+깃을 저장소에 push한다. 
+
